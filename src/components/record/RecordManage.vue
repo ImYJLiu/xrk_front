@@ -42,13 +42,7 @@
             >
                 查询</el-button
             >
-            <el-button
-                type="warning"
-                style="font-size: 18px"
-                @click="resetParam"
-            >
-                重置</el-button
-            >
+           
         </div>
         <el-table
             :data="tableData"

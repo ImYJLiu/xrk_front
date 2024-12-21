@@ -12,7 +12,6 @@
                 </el-option>
             </el-select>
             <el-button type="primary" style="margin-left: 5px;" @click="loadPost"> 查询</el-button>
-            <el-button type="warning" @click="resetParam"> 重置</el-button>
 
             <el-button type="primary" style="margin-left: 5px;" @click="add"> 新增</el-button>
         </div>
@@ -195,7 +194,7 @@
         },
         methods:{
             resetForm() {
-                this.$refs.form.resetFields(); //重置表单
+                this.$refs.form.resetFields(); 
             },
             del(id){
                 console.log(id)

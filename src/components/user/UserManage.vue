@@ -29,14 +29,7 @@
             >
                 查询</el-button
             >
-            <el-button
-                type="warning"
-                @click="resetParam"
-                style="font-size: 18px"
-            >
-                重置</el-button
-            >
-
+           
             <el-button
                 type="primary"
                 style="margin-left: 5px; font-size: 18px"
