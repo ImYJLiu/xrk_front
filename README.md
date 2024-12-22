@@ -23,15 +23,21 @@ node -v
 
 
 # 切换镜像
-npm config set registry https://registry.npm.taobao.org
+npm config set registry https://registry.npmmirror.com
 
 # 安装依赖
-npm install
+npm install --legacy-peer-deps
+
+# 清除缓存
+npm cache clean --force
+
+
 
 # 启动项目
 npm run dev
 
 # 默认用户名和密码
+admin 123456
 
 
 
